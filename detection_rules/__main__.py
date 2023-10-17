@@ -27,6 +27,7 @@ BANNER = r"""
 
 def main():
     """CLI entry point."""
+    click.echo("DEBUG MESSAGE")
     click.echo(BANNER)
     root(prog_name="detection_rules")
 
